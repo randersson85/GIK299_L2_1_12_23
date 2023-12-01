@@ -16,7 +16,8 @@
             double medianAge = 0;
             string familyMemberName;
             int familyMemberAge = 0;
-
+            /* Menystruktur med Switch och Wihileloop tagen från kodexempel av (Ekman, 2023)
+             * */
             while (switchValue != 5) //en whileloop där variabeln menuSelector är villkoret som avgör om loopen ska fortsätta eller ej
             {
                 Console.WriteLine(
@@ -94,7 +95,7 @@
 
 
                             {
-                                //Referens till array.sum https://www.c-sharpcorner.com/blogs/how-to-find-sum-of-an-array-of-numbers-in-c-sharp
+                                //Referens till array.sum (Singh, 2022)
                                 totalAge = familyAge.Sum();
                             }
                             Console.WriteLine("Den totala åldern för familjen är:" + totalAge.ToString("0.00"));
@@ -129,5 +130,17 @@
 
             }
         }
-    }
+    }/*
+      * Referenser
+      * 
+      * References
+      * Ekman, E. (13 november 2023). Gik299_L2_ht23/GIK299_L2_HT23/Program.cs 
+      * at main · eemhda/Gik299_L2_ht23. GitHub. Hämtad 1 december, 2023, from 
+      * https://github.com/eemhda/Gik299_L2_ht23/blob/main/GIK299_L2_HT23/Program.cs
+
+      * Singh, V. P. (6 oktober 2022). How to find sum of an array of numbers in C#. 
+      * C# Corner - Community of Software and Data Developers. 
+      * https://www.c-sharpcorner.com/blogs/how-to-find-sum-of-an-array-of-numbers-in-c-sharp
+      * 
+      */
 }
